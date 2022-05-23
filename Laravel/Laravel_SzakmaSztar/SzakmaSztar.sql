@@ -1,0 +1,16 @@
+insert into competitors (id, professionId, name, birthDate, schoolName, hostel, avatarurl)
+values (1, 1, 'Németh Mihály', '2003-02-27', 'Szombathelyi Szolgáltatási SZC Horváth Boldizsár Közgazdasági és Informatikai Szakgimnáziuma', 1, 'https://robohash.org/estatsapiente.png?size=300x300&set=set5'),
+       (2, 1, 'Lukács Mónika', '2002-02-17', 'Győri Műszaki SZC Jedlik Ányos Gépipari és Informatikai Szakgimnáziuma, Szakközépiskolája és Kollégiuma', 1, 'https://robohash.org/accusamusconsequaturfugit.png?size=300x300&set=set5'),
+       (3, 1, 'Szűcs Sándor', '2003-08-09', 'Budapesti Műszaki SZC Puskás Tivadar Távközlési Technikum Infokommunikációs Szakgimnáziuma', 1, 'https://robohash.org/eaabsed.png?size=300x300&set=set5'),
+       (4, 2, 'Varga Imre', '2001-05-13', 'Szombathelyi Szolgáltatási SZC Horváth Boldizsár Közgazdasági és Informatikai Szakgimnáziuma', 1, 'https://robohash.org/mollitiasolutaeum.png?size=300x300&set=set5'),
+       (5, 2, 'Farkas József', '2002-12-21', 'Kecskeméti SZC Kandó Kálmán Szakgimnáziuma és Szakközépiskolája', 1, 'https://robohash.org/culpaquosvero.png?size=300x300&set=set5'),
+       (6, 2, 'Deák Eszter', '2002-07-12', 'Kecskeméti SZC Kandó Kálmán Szakgimnáziuma és Szakközépiskolája', 0, 'https://robohash.org/exercitationemdoloremquis.png?size=300x300&set=set5'),
+       (7, 3, 'Fazekas Norbert', '2002-03-17', 'Neumann János Gimnázium, Szakgimnázium és Kollégium', 1, 'https://robohash.org/voluptatemcommodiveniam.png?size=300x300&set=set5'),
+       (8, 3, 'Boros Krisztián', '2002-02-24', 'Békéscsabai SZC Gépészeti és Számítástechnikai Szakgimnáziuma és Kollégiuma', 1, 'https://robohash.org/etvelitdistinctio.png?size=300x300&set=set5'),
+       (9, 3, 'Kiss Károly', '2001-01-16', 'Budapesti Műszaki SZC Puskás Tivadar Távközlési Technikum Infokommunikációs Szakgimnáziuma', 1, 'https://robohash.org/sedconsecteturquae.png?size=300x300&set=set5'),
+       (10, 4, 'Fülöp Zsuzsanna', '2001-05-05', 'Győri Műszaki SZC Jedlik Ányos Gépipari és Informatikai Szakgimnáziuma, Szakközépiskolája és Kollégiuma', 1, 'https://robohash.org/autemquiaducimus.png?size=300x300&set=set5'),
+       (11, 4, 'Szilágyi Viktória', '2002-03-25', 'Nyíregyházi SZC Széchenyi István Közgazdasági, Informatikai Szakgimnáziuma és Kollégiuma', 1, 'https://robohash.org/minusinrerum.png?size=300x300&set=set5'),
+       (12, 4, 'Sipos Tímea', '2003-03-16', 'Kecskeméti SZC Kandó Kálmán Szakgimnáziuma és Szakközépiskolája', 0, 'https://robohash.org/quamautipsum.png?size=300x300&set=set5'),
+       (13, 5, 'Papp Szabolcs', '2001-02-01', 'Kecskeméti SZC Kandó Kálmán Szakgimnáziuma és Szakközépiskolája', 1, 'https://robohash.org/doloresetvoluptatem.png?size=300x300&set=set5'),
+       (14, 5, 'Gulyás János', '2001-09-20', 'Budapesti Műszaki SZC Puskás Tivadar Távközlési Technikum Infokommunikációs Szakgimnáziuma', 1, 'https://robohash.org/nequearchitectonihil.png?size=300x300&set=set5'),
+       (15, 5, 'Fodor Sándor', '2003-03-15', 'Győri Műszaki SZC Jedlik Ányos Gépipari és Informatikai Szakgimnáziuma, Szakközépiskolája és Kollégiuma', 1, 'https://robohash.org/dignissimosdeseruntenim.png?size=300x300&set=set5')

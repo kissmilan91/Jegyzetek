@@ -1,0 +1,99 @@
+1. Hozzon létre adatbázist "SzakmaSztar" néven
+   Az adatbázisban az alábbi táblák szerepljenek:
+   - professions
+		- id: PK, kötelező, egész. automatikus sorszámozás
+		- name: UNIQUE, kötelező, szöveges maximum 100 karakter
+		
+   - competitors
+		- id: PK, kötelező, egész, automatikus sorszámozás
+		- professionId: FK, kötelező, egész, a szakma azonosítója
+		- name: szöveges, kötelező, maximum 100 karakter
+		- schoolName: szöveges, nem kötelező, maximum 200 karakter
+		- birthDate: dátum, nem kötelező
+		- hostel: logikai, kötelező, alapértelmezett: igen, -> szállást igényel-e
+		- avatarurl: nem kötelező, szöveges maximum 100 karakter
+		
+2. Hozzon létre új projektet "SzakmaSztar" néven
+3. Töltse fel a szakmák táblát az alábbi értékekkel:
+	- (1) Szoftverfejlesztő és tesztelő
+	- (2) Informatikai rendszer- és alkalmazás üzemeltető
+	- (3) CAD-CAM informatikus
+	- (4) Gépgyártástechnológiai technikus
+	- (5) 		 
+4. Hozzon létre végpontot az adatbázisban szerepelő összes versenyző lekérdezésére 
+   az alábbi beállításokkal! 
+   Oldja meg, hogy a válasz üzenetben a professions tábla name mezője is szerepeljen! 
+
+	Metódus: GET
+	URL: api/competitors
+	Request body: üres
+	Válasz: JSON
+	Válaszkód: 200 OK
+	
+   Minta:
+		[
+			{
+				"id": 1,
+				"profession": "Szoftverfejlesztő és tesztelő",
+				"schoolName": "GYSZC Jedlik Ányos Gépipari és Informatikai Technikum és Kollégium",
+				"name": "Marton Zoltán",
+				"birthDate": "2002-05-25",
+				"hostel": true,
+				"avatarurl": "https://somepage.com/avatar.png"
+			},
+			....
+			{
+				..
+			}
+		]
+	
+5. Hozzon létre végpontot új versenyző rögzítésére. 
+	
+	Metódus: POST
+	URL: api/newcompetitor
+	Request body: JSON (ld. minta alább)
+	Válasz: JSON (ld minták alább)
+	Válaszkód
+		sikeres rögzítés esetén: 201 CREATED
+		sikertelen rögzítés esetén: 400 BAD REQUEST
+		
+	Minta kérésre:
+	{
+		"professionid": 1,
+		"schoolName": "GYSZC Jedlik Ányos Gépipari és Informatikai Technikum és Kollégium",
+		"name": "Marton Zoltán",
+		"birthDate": "2002-05-25",
+		"hostel": true,
+		"avatarurl": "https://somepage.com/avatar.png"
+	}
+	
+	Minta sikeres küldés esetén a válaszra:
+	{
+		"id": 6
+	}
+	
+	Minta hiányzó adat esetén:
+	{
+		"Hiányos adatok."
+	}
+	
+6. Hozzon létre végpontot az adatbázisban szereplő versenyző adatainak törlésére.
+
+	Metódus: DELETE
+	URL: api/competitor/{id}   (ahol az {id} a törlendő versenyző azonosítója)
+	Request body: üres
+	Válasz: 
+		sikeres törlés esetén: üres
+		sikertelen törlés esetén: JSON (ld a mintát alább)
+	Válaszkód:
+		sikeres törlés esetén: 204 NO CONTENT
+		sikertelen törlés esetén: 404 NOT FOUND
+		
+	Sikertelen válasz esetén a válasz:
+	{
+		"A megadott azonosítóval versenyző nem létezik"
+	}
+
+7. Hozzon létre Thunder Client vagy Postman kollekciót “Backend teszt” néven,
+   melyben az Ön által létrehozott összes útvonalat ellenőrzi! Exportálja a kollekciót a 
+   projekt gyökér könyvtárába “Backend_teszt” néven!

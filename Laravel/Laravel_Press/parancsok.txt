@@ -1,0 +1,50 @@
+VSCode: Laravel Extension Pack
+
+projekt létrehozása:
+composer create-project laravel/laravel example-app
+    vagy
+laravel new example-app
+
+composer remove laravel/sanctum
++ törölni: config/sanctum.php-t
+
+Mappastruktúra:
+/.env - DB_DATABASE=press
+/routes/api.php
+/database/migrations/
+/database/seeders/databaseSeeder.php
+/app/Models/
+/app/Http/Controllers/
+
+parancsok:
+php artisan help make:model
+php artisan make:model -mc --api  Order
+php artisan make:model -m Category
+
+ha elfelejtettem volna a modellel együtt, akkor utólag:
+php artisan make:controller --api OrderController
+php artisan make:migration create_orders_table
+
+Ha a tábla neve != a model neve többesszámban (angolul):
+modelben: public $table = 'táblaneve';
+és a migrációban is át kell írni a tábla nevét
+
+Mass assignment hibaüzenet lekezelése:
+modelben: public $guarded = [];
+
+CRUD
+Create (Insert) - store
+Read (select) - index, show
+Update - update
+Delete - desroy
+
+php artisan migrate
+php artisan migrate:fresh - előtte mind táblát töröl
+
+php artisan db:seed
+vagy
+php artisan migrate:fresh --seed
+
+Szerver indítás:
+php artisan serve
+
