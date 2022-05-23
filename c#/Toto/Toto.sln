@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toto", "Toto\Toto.csproj", "{98BA64BA-4164-476A-9E72-DFBDE3226ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotoGUI", "TotoGUI\TotoGUI.csproj", "{7A19684A-8017-4931-833A-61CE286003DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98BA64BA-4164-476A-9E72-DFBDE3226ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BA64BA-4164-476A-9E72-DFBDE3226ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BA64BA-4164-476A-9E72-DFBDE3226ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BA64BA-4164-476A-9E72-DFBDE3226ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A19684A-8017-4931-833A-61CE286003DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A19684A-8017-4931-833A-61CE286003DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A19684A-8017-4931-833A-61CE286003DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A19684A-8017-4931-833A-61CE286003DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {376510B7-B519-418E-B0BA-8DCB7C90A772}
+	EndGlobalSection
+EndGlobal

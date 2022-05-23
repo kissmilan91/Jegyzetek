@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "igA6kLimHpIL2Sm4w2ZUiiHP1l2IWDVFqriOijIIc/vmRFiyDRYPzLA2znYo0e1QaMs8z0rBDVodokEo+Lj94g==",
+  "success": true,
+  "projectFilePath": "Z:\\2021-2022\\14KE - Prog\\20220323_RealEstate_App\\20220323_RealEstate\\20220323_RealEstate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\slo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

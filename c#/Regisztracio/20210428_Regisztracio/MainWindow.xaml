@@ -1,0 +1,36 @@
+﻿<Window x:Class="_20210428_Regisztracio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20210428_Regisztracio"
+        mc:Ignorable="d"
+        Title="Regisztráció" Height="300" Width="400" FontSize="16" MinHeight="250">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Label Grid.ColumnSpan="2" HorizontalAlignment="Center" Content="Regisztráció" FontSize="22" FontWeight="Bold" />
+        <Label Grid.Row="1" Content="Név" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <Label Grid.Row="2" Content="Jelszó" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <Label Grid.Row="3" Content="Születési dátum" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <Label Grid.Row="4" Content="Nem" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <Button x:Name="btnRegisztrál" Content="Regisztrál" Grid.ColumnSpan="2" Grid.Row="5" Height="30" Click="btnRegisztrál_Click" />
+        <TextBox x:Name="tbNév" Grid.Column="1" Grid.Row="1" Height="30" Margin="10,0,10,0" />
+        <PasswordBox x:Name="pbJelszó" Grid.Column="1" Grid.Row="2" Height="30" Margin="10,0,10,0" />
+        <DatePicker Name="dpSzuletes"  Grid.Column="1" Grid.Row="3" Height="30" Margin="10,0,10,0" FirstDayOfWeek="Monday" SelectedDateFormat="Short" />
+        <WrapPanel Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" >    
+            <RadioButton x:Name="rbFerfi" Content="Férfi" Margin="10,0,10,0" />
+            <RadioButton x:Name="rbNo" Content="Nő" />
+        </WrapPanel>
+    </Grid>
+</Window>

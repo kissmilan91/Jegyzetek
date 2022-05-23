@@ -1,0 +1,39 @@
+﻿<Window x:Class="_20220209_Butorbolt.ButorReszletek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20220209_Butorbolt"
+        mc:Ignorable="d"
+        Title="ButorReszletek" Height="450" Width="800" FontSize="16">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <Label Content="Megnevezés" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" />
+        <Label Content="Alapanyag" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" />
+        <Label Content="Szállítás" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" />
+        <Label Content="Ár" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" />
+        <Label Content="Szín" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" />
+
+        <TextBox x:Name="tbNev" Grid.Row="0" Grid.Column="1" Height="30" Text="{Binding Nev}"/>
+        <ComboBox Name="cbAlapanyag" Grid.Row="1" Grid.Column="1" Height="30" SelectedValue="{Binding Alapanyag_ID}"
+                  DisplayMemberPath="Nev" SelectedValuePath="ID" />
+        <DatePicker Name="dpSzallitas" Grid.Row="2" Grid.Column="1" SelectedDate="{Binding Szallitas}" Height="30" />
+        <TextBox x:Name="tbAr" Grid.Row="3" Grid.Column="1" Height="30" Text="{Binding Ar}"/>
+        <TextBox x:Name="tbSzin" Grid.Row="4" Grid.Column="1" Height="30" Text="{Binding Szin}"/>
+
+        <Button x:Name="btnMentes" Grid.Row="5" Grid.Column="0" Content="Mentés" Margin="10,0" Click="btnMentes_Click" />
+        <Button x:Name="btnMegesem" Grid.Row="5" Grid.Column="1" Content="Mégsem" Margin="10,0" Click="btnMegesem_Click" />
+
+    </Grid>
+</Window>

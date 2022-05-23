@@ -1,0 +1,14 @@
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\bin\Debug\20210505_Sakktabla.exe.config
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\bin\Debug\20210505_Sakktabla.exe
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\bin\Debug\20210505_Sakktabla.pdb
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\App.g.cs
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\20210505_Sakktabla_MarkupCompile.cache
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\20210505_Sakktabla_MarkupCompile.lref
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\MainWindow.baml
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\20210505_Sakktabla.g.resources
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\_20210505_Sakktabla.Properties.Resources.resources
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\20210505_Sakktabla.csproj.GenerateResource.cache
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\20210505_Sakktabla.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\20210505_Sakktabla.exe
+D:\Visual Studio Projects\13ke\20210505_Sakktabla\20210505_Sakktabla\obj\Debug\20210505_Sakktabla.pdb

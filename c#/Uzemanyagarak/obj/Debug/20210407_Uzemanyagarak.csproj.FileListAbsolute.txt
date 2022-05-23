@@ -1,0 +1,8 @@
+D:\Visual Studio Projects\13ke\20210407_Uzemanyagarak\bin\Debug\uzemanyag.txt
+D:\Visual Studio Projects\13ke\20210407_Uzemanyagarak\bin\Debug\20210407_Uzemanyagarak.exe.config
+D:\Visual Studio Projects\13ke\20210407_Uzemanyagarak\bin\Debug\20210407_Uzemanyagarak.exe
+D:\Visual Studio Projects\13ke\20210407_Uzemanyagarak\bin\Debug\20210407_Uzemanyagarak.pdb
+D:\Visual Studio Projects\13ke\20210407_Uzemanyagarak\obj\Debug\20210407_Uzemanyagarak.csprojAssemblyReference.cache
+D:\Visual Studio Projects\13ke\20210407_Uzemanyagarak\obj\Debug\20210407_Uzemanyagarak.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\13ke\20210407_Uzemanyagarak\obj\Debug\20210407_Uzemanyagarak.exe
+D:\Visual Studio Projects\13ke\20210407_Uzemanyagarak\obj\Debug\20210407_Uzemanyagarak.pdb

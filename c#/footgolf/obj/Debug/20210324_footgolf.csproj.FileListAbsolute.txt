@@ -1,0 +1,8 @@
+D:\Visual Studio Projects\13ke\20210324_footgolf\bin\Debug\fob2016.txt
+D:\Visual Studio Projects\13ke\20210324_footgolf\bin\Debug\20210324_footgolf.exe.config
+D:\Visual Studio Projects\13ke\20210324_footgolf\bin\Debug\20210324_footgolf.exe
+D:\Visual Studio Projects\13ke\20210324_footgolf\bin\Debug\20210324_footgolf.pdb
+D:\Visual Studio Projects\13ke\20210324_footgolf\obj\Debug\20210324_footgolf.csprojAssemblyReference.cache
+D:\Visual Studio Projects\13ke\20210324_footgolf\obj\Debug\20210324_footgolf.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\13ke\20210324_footgolf\obj\Debug\20210324_footgolf.exe
+D:\Visual Studio Projects\13ke\20210324_footgolf\obj\Debug\20210324_footgolf.pdb

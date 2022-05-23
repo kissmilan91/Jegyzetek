@@ -1,0 +1,7 @@
+Z:\2020-2021\13ke\Toto\Toto\bin\Debug\toto.txt
+Z:\2020-2021\13ke\Toto\Toto\bin\Debug\Toto.exe.config
+Z:\2020-2021\13ke\Toto\Toto\bin\Debug\Toto.exe
+Z:\2020-2021\13ke\Toto\Toto\bin\Debug\Toto.pdb
+Z:\2020-2021\13ke\Toto\Toto\obj\Debug\Toto.csprojAssemblyReference.cache
+Z:\2020-2021\13ke\Toto\Toto\obj\Debug\Toto.exe
+Z:\2020-2021\13ke\Toto\Toto\obj\Debug\Toto.pdb

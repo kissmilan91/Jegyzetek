@@ -1,0 +1,14 @@
+Z:\2020-2021\13ke\Toto\TotoGUI\bin\Debug\TotoGUI.exe.config
+Z:\2020-2021\13ke\Toto\TotoGUI\bin\Debug\TotoGUI.exe
+Z:\2020-2021\13ke\Toto\TotoGUI\bin\Debug\TotoGUI.pdb
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\TotoGUI.csprojAssemblyReference.cache
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\MainWindow.g.cs
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\App.g.cs
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\TotoGUI_MarkupCompile.cache
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\TotoGUI_MarkupCompile.lref
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\MainWindow.baml
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\TotoGUI.g.resources
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\TotoGUI.Properties.Resources.resources
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\TotoGUI.csproj.GenerateResource.cache
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\TotoGUI.exe
+Z:\2020-2021\13ke\Toto\TotoGUI\obj\Debug\TotoGUI.pdb

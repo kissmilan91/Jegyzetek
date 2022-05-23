@@ -1,0 +1,8 @@
+D:\Visual Studio Projects\13ke\20210324_Fogado\bin\Debug\fogado.txt
+D:\Visual Studio Projects\13ke\20210324_Fogado\bin\Debug\20210324_Fogado.exe.config
+D:\Visual Studio Projects\13ke\20210324_Fogado\bin\Debug\20210324_Fogado.exe
+D:\Visual Studio Projects\13ke\20210324_Fogado\bin\Debug\20210324_Fogado.pdb
+D:\Visual Studio Projects\13ke\20210324_Fogado\obj\Debug\20210324_Fogado.csprojAssemblyReference.cache
+D:\Visual Studio Projects\13ke\20210324_Fogado\obj\Debug\20210324_Fogado.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\13ke\20210324_Fogado\obj\Debug\20210324_Fogado.exe
+D:\Visual Studio Projects\13ke\20210324_Fogado\obj\Debug\20210324_Fogado.pdb
