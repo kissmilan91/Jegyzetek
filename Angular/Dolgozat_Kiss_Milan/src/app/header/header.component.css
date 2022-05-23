@@ -1,0 +1,15 @@
+header {
+    height: 300px;
+    width: 1278px;
+    background-color: bisque;
+    margin: -20px -20px 20px -20px;
+    padding: 20px;
+    background-image: url("/assets/f1.jpeg");
+    background-position-y:-350px;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-shadow: 5px 5px 8px lightblue;
+}

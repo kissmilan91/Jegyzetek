@@ -1,0 +1,12 @@
+<div *ngFor="let etel of Etelek">
+
+    <b>{{etel.Nev}}</b>
+    <hr/>
+
+    
+    <app-etel EtelNeve="{{etel.Nev}}" 
+              EtelLeirasa="{{etel.Leiras}}"
+              Kep="{{etel.KepUrl}}">
+    </app-etel>
+    
+</div>

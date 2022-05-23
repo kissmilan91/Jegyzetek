@@ -1,0 +1,12 @@
+<section class="row">
+    <article *ngFor="let player of players" class="card col-3 m-4 p-3">
+        <img src="/assets/{{player.url}}" class="card-img-top" />
+        
+        <div class="card-body">
+            <h5 class="card-title">
+                {{player.name}}
+            </h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio voluptatem incidunt sint libero impedit id reiciendis molestiae deleniti nulla soluta ea quibusdam nesciunt odit obcaecati nobis veniam, earum unde assumenda!</p>
+        </div>
+    </article>
+</section>

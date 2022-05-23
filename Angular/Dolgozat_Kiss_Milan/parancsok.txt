@@ -1,0 +1,15 @@
+/* 
+
+Ide írja a munkája során használt parancssorba írt utasításokat. 
+
+npm init
+npm install -g npm@8.3.0 (vagy npm update)
+npm audit fix
+npm fund
+npm install bootstrap
+npm fund
+ng serve --open
+ng generate component races
+
+
+*/

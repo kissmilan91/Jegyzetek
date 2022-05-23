@@ -1,0 +1,12 @@
+<tr style="width: 100%;" *ngIf="pilota !== undefined">
+    <td style="width: 150px;">{{pilota.ID}}</td>
+    <td style="width: 150px;">{{pilota.nev}}</td>
+    <td style="width: 150px;">{{pilota.nemzet}}</td>
+    <td style="width: 150px;">{{pilota.szuletes}}</td>
+    <td style="width: 150px;">{{pilota.magassag}}</td>
+    <td style="width: 150px;">{{pilota.csapat.nev}}</td>
+    <td style="width: 150px;">{{pilota.csapat.nemzet}}</td>
+    <td style="width: 50px;">
+        <button (click)="torlesKattintas()">X</button>
+    </td>
+</tr>        

@@ -1,0 +1,66 @@
+
+
+<!--
+<input type="text" [(ngModel)]="query" />
+<button (click)="kereses()">Keresés</button>
+
+<table border="1">
+    <tr>
+        <th style="width: 150px;">ID</th>
+        <th style="width: 150px;">Név</th>
+        <th style="width: 150px;">Nemzetisége</th>
+        <th style="width: 150px;">Születési dátum</th>
+        <th style="width: 150px;">Magasság</th>
+        <th style="width: 150px;">Csapatnév</th>
+        <th style="width: 150px;">Csapat nemzetisége</th>
+    </tr>
+</table>
+
+<table border="1">
+    <app-pilota *ngFor="let p of pilotak" 
+        [pilota]="p" 
+        (törlésEsemény)="PilotaTorlese($event)"></app-pilota>
+</table>
+-->
+<p-dataView #dv [value]="pilotak" layout="list" 
+    [paginator]="true" [rows]="5"
+    [sortField]="sortField" [sortOrder]="sortOrder"
+    filterBy="nev"
+>
+    <ng-template pTemplate="header">
+        <p-dropdown [options]="sortOptions" placeholder="Rendezés"
+        (onChange)="onSortChange($event)"></p-dropdown>
+
+        <input #search type="search" pInputText placeholder="Keresés" 
+                        (input)="dv.filter(search.value)">
+
+        <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+    </ng-template>
+
+    <ng-template let-p pTemplate="listItem">
+        <div class="col-12">
+            {{p.nev}} - {{p.magassag}}
+        </div>
+    </ng-template>
+
+    <ng-template let-p pTemplate="gridItem">
+        <div class="col-1 p-2">
+            {{p.ID}}
+        </div>
+        <div class="col-2 p-2">
+            {{p.nev}}
+        </div>
+        <div class="col-1 p-2">
+            {{p.nemzet}}
+        </div>
+        <div class="col-1 text-xs p-2">
+            {{p.szuletes}}
+        </div>
+        <div class="col-1 p-2">
+            {{p.magassag}}
+        </div>
+    </ng-template>
+</p-dataView>
+
+<br /><br />
+<app-ujpilota (frissitesEsemeny)="frissitesEsemeny()"></app-ujpilota>

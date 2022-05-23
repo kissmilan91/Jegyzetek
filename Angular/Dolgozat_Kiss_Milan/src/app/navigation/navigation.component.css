@@ -1,0 +1,28 @@
+nav {
+    margin-left: -230px;
+    text-align: right;
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+li{
+   
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    font-weight: bolder;
+    color: navy;
+}

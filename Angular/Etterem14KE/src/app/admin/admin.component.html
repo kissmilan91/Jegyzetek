@@ -1,0 +1,19 @@
+<div class="hiba" *ngIf="hiba_On" >
+    <b>{{HibaUzenet}}</b>
+</div>
+<h2>{{szin}}</h2>
+<div>
+    <h2>Login</h2>
+    <p>felhasználónév</p>
+    <input type="text" [(ngModel)]="username" placeholder="admin"/>
+    <p>jelszó</p>
+    <input type="password" [(ngModel)]="password" placeholder="12345"/>
+    <br><br>
+    <input type="button" value="Belépés" (click)="kattintas();" />
+</div>
+
+<select [(ngModel)]="szin">
+    <option value="red">Piros</option>
+    <option value="blue">Kék</option>
+    <option value="lime">Zöld</option>
+</select>

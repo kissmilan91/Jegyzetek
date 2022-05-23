@@ -1,0 +1,30 @@
+
+<p>
+    <span class="p-float-label">
+        <input id="nev" type="text" [(ngModel)]="pilota.nev" pInputText />
+        <label for="nev">Név:</label>
+    </span>
+    <br />
+
+    <span class="p-float-label">
+        <p-calendar id="szuletes" [(ngModel)]="pilota.szuletes" dateFormat="yy.mm.dd"></p-calendar>
+        <label for="szuletes">Születési dátum:</label>
+    </span>
+
+    <br />
+    <span class="p-float-label">
+    <p-dropdown [options]="nemzetisegek" [(ngModel)]="pilota.nemzet" optionLabel="name"
+                    optionValue="code" [editable]="true"></p-dropdown>
+    </span>
+
+    <br />
+    <span class="p-float-label">
+        <p-inputNumber id="magassag" [(ngModel)]="pilota.magassag" mode="decimal" [showButtons]="true" buttonLayout="vertical" spinnerMode="vertical"
+                decrementButtonClass="p-button-secondary" incrementButtonClass="p-button-secondary" incrementButtonIcon="pi pi-plus" decrementButtonIcon="pi pi-minus"></p-inputNumber>
+        <label for="magassag">Magasság:</label>
+    </span>
+
+
+    <button (click)="ujpilota()">Új pilóta</button>
+
+</p>
